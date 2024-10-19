@@ -1,5 +1,5 @@
 - name: Variable playbook
-  host: all
+  hosts: all
   vars:
     URL: vars.waferhassan.com
   tasks:
