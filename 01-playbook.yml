@@ -1,14 +1,10 @@
-#- name: Demo Playbook
-#  hosts: all
-#  tasks:
-#    - name: Print Hello devOps
-#      ansible.builtin.debug:
-#        msg:Hello devOps
-
 - name: Demo Playbook
   hosts: all
   tasks:
-    - name: Print Hello World
+    - name: Print Hello devOps
       ansible.builtin.debug:
-        msg: Hello World
+        msg: Hello DevOps
+
+
+
 
