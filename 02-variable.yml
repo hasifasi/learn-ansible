@@ -3,6 +3,6 @@
   vars:
     URL: vars.waferhassan.com
   tasks:
-    -name: Print variable URL
-    ansible.builtin.debug:
+    - name: Print variable URL
+      ansible.builtin.debug:
       msg: URL is {{ URL }}
