@@ -1,0 +1,7 @@
+- name: Print Hello DevOps
+  ansible.builtin.debug:
+    msg: Hello DevOps
+
+- name: Print URL
+  ansible.builtin.debug:
+    msg URL is {{ URL }}
