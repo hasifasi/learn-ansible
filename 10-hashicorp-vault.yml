@@ -1,6 +1,8 @@
 - name: Get vault credentials
   hosts: localhost
   connection: local
+  vars:
+    ansible_python_interpreter: /usr/bin/python3.11
   tasks:
     - name: Print Password
       ansible.builtin.debug:
