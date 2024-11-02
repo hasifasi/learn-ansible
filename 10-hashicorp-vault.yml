@@ -7,6 +7,6 @@
     - name: Print Password
       ansible.builtin.debug:
         msg: "{{ lookup('hashi_vault', 'test/data/my_credentials:password token={{ vault_token }} url=https://54.87.201.87:8200 validate_certs=False')}}"
-    - name: Print UserName
-      ansible.builtin.debug:
-        msg: "{{ lookup('hashi_vault', 'test/data/my_credentials:username token={{ vault_token }} url=https://54.87.201.87:8200 validate_certs=False')}}"
+#    - name: Print UserName
+#      ansible.builtin.debug:
+#        msg: "{{ lookup('hashi_vault', 'test/data/my_credentials:username token={{ vault_token }} url=https://54.87.201.87:8200 validate_certs=False')}}"
